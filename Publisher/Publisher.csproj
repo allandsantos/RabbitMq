@@ -6,11 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EasyNetQ" Version="6.3.1" />
+    <PackageReference Include="EasyNetQ.DI.Microsoft" Version="6.3.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Messages\Messages.csproj" />
+    <ProjectReference Include="..\..\..\Abee.Erp.ServiceBus\Abee.Erp.ServiceBus\Abee.Erp.ServiceBus.csproj" />
   </ItemGroup>
 
 </Project>

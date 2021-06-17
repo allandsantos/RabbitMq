@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Consumers", "02.Consumer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messages", "Messages\Messages.csproj", "{C475C9C0-C65D-4728-9773-9D47C8F9ACC8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abee.Erp.ServiceBus", "..\..\Abee.Erp.ServiceBus\Abee.Erp.ServiceBus\Abee.Erp.ServiceBus.csproj", "{A88AFA37-ADFD-4B04-BB5C-2B366BC55B20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{C475C9C0-C65D-4728-9773-9D47C8F9ACC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C475C9C0-C65D-4728-9773-9D47C8F9ACC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C475C9C0-C65D-4728-9773-9D47C8F9ACC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A88AFA37-ADFD-4B04-BB5C-2B366BC55B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88AFA37-ADFD-4B04-BB5C-2B366BC55B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88AFA37-ADFD-4B04-BB5C-2B366BC55B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88AFA37-ADFD-4B04-BB5C-2B366BC55B20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{E1200C73-2216-46EC-98BC-9D4269DE90A8} = {81CF021F-7B13-4129-B470-6C6BFB2EFBE9}
 		{EC453E6D-8723-48B6-8886-AB8ECBCBF378} = {B6DFC4D9-F6D5-4430-B573-2FBE592AC63D}
 		{E9A3D5D2-9A87-429B-B4DC-6F6D68F79265} = {B6DFC4D9-F6D5-4430-B573-2FBE592AC63D}
+		{A88AFA37-ADFD-4B04-BB5C-2B366BC55B20} = {81CF021F-7B13-4129-B470-6C6BFB2EFBE9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {705DF1AF-2B80-4262-81BC-34A4DD3826E7}

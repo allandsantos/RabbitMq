@@ -1,5 +1,4 @@
 ﻿using EasyNetQ;
-using Messages;
 using System;
 
 namespace ConsumerB
@@ -22,5 +21,10 @@ namespace ConsumerB
             Console.WriteLine("Got message: {0}", textMessage.Text);
             Console.ResetColor();
         }
+    }
+
+    public class TextMessage
+    {
+        public string Text { get; set; }
     }
 }
